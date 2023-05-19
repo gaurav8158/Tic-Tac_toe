@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid{
+  margin-top: 15px;;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+ justify-content: center;
+ cursor: pointer;
+}
+
+.box{
+  padding:10px;
+ border: 1px solid black;
+ grid-row-gap: 0px; 
+ background-color: none;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+background-color: rgba(28, 41, 220, 0.5); /* Adjust the alpha value to control transparency */
+backdrop-filter: blur(10px); /* Adjust the blur value to control the intensity of the effect */
+border-radius: 5px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
