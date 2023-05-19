@@ -42,6 +42,9 @@ npm start
 
 http://localhost:5173
 
+## Screenshots
+
+![Game Screenshot](src/Components/game.png)
 
 ## Contributing
 
