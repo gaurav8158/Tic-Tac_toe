@@ -1,4 +1,3 @@
-# Tic-Tac_toe
 # Tic Tac Toe Game
 
 This is a simple Tic Tac Toe game built with React.js. It allows two players to take turns marking cells on a 3x3 grid until a player wins or the game ends in a draw.
@@ -44,7 +43,7 @@ http://localhost:5173
 
 ## Screenshots
 
-![Game Screenshot](src/Components/game.png)
+![Game Screenshot](./src/Components/game.png)
 
 ## Contributing
 
